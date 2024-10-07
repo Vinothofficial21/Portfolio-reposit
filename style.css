@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   background-color: #f4f4f4;
   text-align: center;
   scroll-behavior: smooth;
@@ -185,6 +184,9 @@ hr {
   .profile-pic {
     width: 120px;
     height: 120px;
+  }
+  body{
+    overflow-x: hidden;
   }
   .contact-icons a {
     font-size: 24px;
